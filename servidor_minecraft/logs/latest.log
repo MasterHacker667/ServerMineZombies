@@ -1,0 +1,265 @@
+[12Oct2025 01:00:48.563] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.4.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[12Oct2025 01:00:48.567] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.16 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
+[12Oct2025 01:00:58.861] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[12Oct2025 01:00:58.949] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/ServerMineZombies/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[12Oct2025 01:00:59.505] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator {mods folder locator at /workspaces/ServerMineZombies/servidor_minecraft/mods} returned 1 files which are client-side-only mods, but we're on a dedicated server. They will be skipped!
+[12Oct2025 01:00:59.812] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/ServerMineZombies/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.4.0/fmlcore-1.20.1-47.4.0.jar is missing mods.toml file
+[12Oct2025 01:00:59.813] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/ServerMineZombies/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.4.0/javafmllanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[12Oct2025 01:00:59.814] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/ServerMineZombies/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.4.0/lowcodelanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[12Oct2025 01:00:59.814] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/ServerMineZombies/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.4.0/mclanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[12Oct2025 01:01:02.223] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[12Oct2025 01:01:02.225] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 92 dependencies adding them to mods collection
+[12Oct2025 01:01:02.795] [main/INFO] [org.groovymc.gml.mappings.MappingsProvider/]: Starting runtime mappings setup...
+[12Oct2025 01:01:02.860] [main/INFO] [org.groovymc.gml.internal.locator.ModLocatorInjector/]: Injecting ScriptModLocator candidates...
+[12Oct2025 01:01:02.871] [main/INFO] [org.groovymc.gml.scriptmods.ScriptModLocator/]: Injected Jimfs file system
+[12Oct2025 01:01:02.876] [main/INFO] [org.groovymc.gml.scriptmods.ScriptModLocator/]: Skipped loading script mods from directory /workspaces/ServerMineZombies/servidor_minecraft/mods/scripts as it did not exist.
+[12Oct2025 01:01:02.886] [main/INFO] [org.groovymc.gml.internal.locator.ModLocatorInjector/]: Injected ScriptModLocator mod candidates. Found 0 valid mod candidates and 0 broken mod files.
+[12Oct2025 01:01:05.817] [GML Mappings Thread/INFO] [org.groovymc.gml.mappings.MappingsProvider/]: Loaded runtime mappings in 2927ms
+[12Oct2025 01:01:05.818] [GML Mappings Thread/INFO] [org.groovymc.gml.mappings.MappingsProvider/]: Finished runtime mappings setup.
+[12Oct2025 01:01:08.178] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[12Oct2025 01:01:08.380] [main/ERROR] [mixin/]: Mixin config fabric-item-group-api-v1.mixins.json does not specify "minVersion" property
+[12Oct2025 01:01:08.382] [main/ERROR] [mixin/]: Mixin config fabric-item-group-api-v1.client.mixins.json does not specify "minVersion" property
+[12Oct2025 01:01:08.443] [main/ERROR] [mixin/]: Mixin config fabric-item-api-v1.client.mixins.json does not specify "minVersion" property
+[12Oct2025 01:01:08.510] [main/ERROR] [mixin/]: Mixin config fabric-data-attachment-api-v1.mixins.json does not specify "minVersion" property
+[12Oct2025 01:01:08.514] [main/ERROR] [mixin/]: Mixin config fabric-data-attachment-api-v1.client.mixins.json does not specify "minVersion" property
+[12Oct2025 01:01:08.923] [main/INFO] [net.fabricmc.loader.impl.bootstrap.FabricLoaderBootstrap/]: Propagating FML mod list to Fabric Loader
+[12Oct2025 01:01:08.941] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[12Oct2025 01:01:09.057] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 259 options available, 0 override(s) found
+[12Oct2025 01:01:09.192] [main/WARN] [mixin/]: Reference map 'puzzlesaccessapi.common.refmap.json' for puzzlesaccessapi.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[12Oct2025 01:01:09.292] [main/INFO] [Puzzles Lib/]: Loading 212 mods:
+	- access_denied 6.2.0
+	- ageingspawners 2.0.0
+	- aiycrates 1.0.0
+	- alexsmobs 1.22.9
+	- almanac 1.0.2
+	- apocalypsenow 3.0.5
+	- architectury 9.2.14
+	- athena 3.1.2
+	- atlaslib 1.1.12
+	- attributeslib 1.3.7
+	- automobility 0.4.2+1.20.1-forge
+	- auudio 1.0.3
+	- badmobs 19.0.4
+	- badoptimizations 2.3.1
+	- baguettelib 1.1.1
+	- balm 7.3.37
+		\-- kuma_api 20.1.12
+	- bbb 2.0pre3
+		\-- midnightlib 1.4.2
+	- bbs 1.20.1-0.1.3
+	- bettermineshafts 1.20-Forge-4.0.4
+	- bloomingnature 1.0.12
+	- bookshelf 20.2.13
+	- carryon 2.1.2.7
+	- chaoszprojectbandits 1.0.0
+	- charmofundying 6.5.0+1.20.1
+	- citadel 2.6.2
+	- cleanswing 1.8
+	- cloth_config 11.1.136
+	- clumps 12.0.0.4
+	- cofh_core 11.0.2
+	- collective 8.7
+	- combatlog 2.5
+	- comforts 6.4.0+1.20.1
+	- commongroovylibrary 0.3.3
+	- configurableextramobdrops 3.5
+	- copycats 3.0.2+mc.1.20.1-forge
+	- corgilib 4.0.3.4
+	- coroutil 1.20.1-1.3.7
+	- corpse 1.20.1-1.0.23
+	- corpsecurioscompat 3.1.3
+	- create 6.0.6
+		|-- flywheel 1.0.4
+		\-- ponder 1.0.80
+	- create_netherless 1.3.0
+	- cupboard 1.20.1-2.7
+	- cure 1.0.0
+	- curios 5.14.1+1.20.1
+	- cw_additions 1.1.6
+	- dataanchor 1.0.0.19
+	- decorative_blocks 4.1.3
+	- doapi 1.2.15
+		\-- terraform 7.0.1
+	- dummmmmmy 1.20-2.0.9
+	- embeddium 0.3.31+mc1.20.1
+		\-- rubidium 0.7.1
+	- enchdesc 17.1.19
+	- enhancedcelestials 1.20.1-5.0.3.1
+	- entity_model_features 3.0.1
+	- entity_texture_features 7.0.2
+	- euphoria_patcher 1.7.2-r5.6.1-forge
+	- extra_zombie_drops 1.0.0
+	- extragore 5.2.3.1
+	- fallingtrees 0.13.2
+	- farmersdelight 1.20.1-1.2.9
+	- fastsuite 5.1.0
+	- ferritecore 6.0.1
+	- firstjoinmessage 3.8
+	- flan 1.20.1-1.11.15
+		\-- lingua_bib 1.20.1-1.0.6
+	- forge 47.4.0
+	- forgivingworld 1.20.1-4.7
+	- framework 0.7.15
+	- ftblibrary 2001.2.10
+	- ftbteams 2001.3.1
+	- geckolib 4.8.2
+	- globalnarrationtoggle 1.4
+	- gml 4.0.11
+	- golemsarefriends 1.20.0-1.0.1
+	- guardvillagers 1.20.1-1.6.11
+	- gunners 0.0.5
+	- herbalbrews 1.0.12
+	- hordes 1.5.4c
+	- immersive_aircraft 1.4.0+1.20.1
+	- immersive_weathering 1.20.1-2.0.5
+	- improved_village_placement 1.1.1
+	- incontrol 1.20-9.4.1
+	- insanelib 1.21.21
+	- item_obliterator 2.3.0
+	- item_scrapper 1.2.8
+	- item_scrapper_armorandtools 1.0.0
+	- item_scrapper_taczpack 1.0.0
+	- jamlib 1.3.5+1.20.1
+	- jeffs_cursed_walking_structures 1.0.9
+	- jei 15.20.0.116
+	- jrftl 1.6.0
+	- keerdm_zombie_essentials 1.4
+	- konkrete 1.8.0
+	- kotlinforforge 4.11.0
+	- kubejs 2001.6.5-build.16
+	- letmedespawn 1.5.0
+	- lithostitched 1.4.11
+	- lootr 0.7.35.92
+	- lostcities 1.20-7.4.5
+	- map_atlases 1.20-6.0.17
+	- marbledsarsenal 2.3.0.3
+	- marbledsfirstaid 1.2.0.0
+	- marbledsmelees 1.20.1-1.0.0
+	- mcore 1.0.3.0
+	- minecraft 1.20.1
+	- mobcontrol 1.5.12
+	- moonlight 1.20-2.16.14
+	- mutantmonsters 8.0.7
+	- necronomicon 1.6.0
+	- nobz 1.2
+	- noisium 2.3.0+mc1.20-1.20.1
+	- novillagerdm 5.0.0
+	- octolib 0.5.0.1
+	- openloader 19.0.4
+	- overworld_netherite_ore 2.6
+	- packetfixer 3.3.0
+	- pandalib 0.5.2
+	- philipsruins 5.6
+	- pillagers_gun 3.0.2
+	- placebo 8.6.3
+	- pointblank 1.9.6
+	- polymorph 0.49.10+1.20.1
+		\-- spectrelib 0.13.17+1.20.1
+	- projectvibrantjourneys 1.20.1-6.2.0
+	- propertymodifier 0.3.3
+	- puzzleslib 8.1.33
+		\-- puzzlesaccessapi 20.1.1
+	- refurbished_furniture 1.0.14
+	- resourcefullib 2.1.29
+	- responsiveshields 2.3
+	- rhino 2001.2.3-build.10
+	- rightclickharvest 4.6.0+1.20.1
+	- satako 7.0.33-1.20.1
+	- searchables 1.0.3
+	- securitycraft 1.10.0.1
+	- simple_snowy_fix 2.1.4
+	- simpleshops 1.2.2
+	- simply_traps 1.7
+	- sliceanddice 3.5.2
+		\-- mixinextras 0.4.1
+	- smartbrainlib 1.15
+	- sona 1.2.9
+	- sophisticatedbackpacks 3.24.9.1391
+	- sophisticatedcore 1.2.105.1230
+	- starterkit 7.4
+	- structure_gel 2.16.2
+	- structurecontrol 1.8.3
+	- tacz 1.1.6-hotfix
+	- tax_cursed_painter 1.0.0
+	- temporalapi 1.6.7
+	- tenshilib 1.20.1-1.7.6
+	- the_deep_void 1.94.1
+	- the_deeper_void 2.0.0
+	- toolbelt 1.20.02
+	- totem_fragments 1.0.0
+	- txnilib 1.0.24
+		|-- fabric_api 0.92.2+1.11.12+1.20.1
+		|-- fabric_api_base 0.4.31+ef105b4977
+		|-- fabric_api_lookup_api_v1 1.6.36+67f9824077
+		|-- fabric_biome_api_v1 13.0.13+dc36698e77
+		|-- fabric_block_api_v1 1.0.11+0e6cb7f777
+		|-- fabric_block_view_api_v2 1.0.1+0767707077
+		|-- fabric_blockrenderlayer_v1 1.1.41+1d0da21e77
+		|-- fabric_client_tags_api_v1 1.1.2+5d6761b877
+		|-- fabric_command_api_v1 1.2.34+f71b366f77
+		|-- fabric_command_api_v2 2.2.13+561530ec77
+		|-- fabric_content_registries_v0 4.0.11+a670df1e77
+		|-- fabric_convention_tags_v1 1.5.5+fa3d1c0177
+		|-- fabric_data_attachment_api_v1 1.0.0+30ef839e77
+		|-- fabric_data_generation_api_v1 12.3.4+369cb3a477
+		|-- fabric_dimensions_v1 2.1.54+8005d10d77
+		|-- fabric_entity_events_v1 1.6.0+4ca7515277
+		|-- fabric_events_interaction_v0 0.6.2+0d0bd5a777
+		|-- fabric_game_rule_api_v1 1.0.40+683d4da877
+		|-- fabric_item_api_v1 2.1.28+4d0bbcfa77
+		|-- fabric_item_group_api_v1 4.0.12+c9161c2d77
+		|-- fabric_key_binding_api_v1 1.0.37+561530ec77
+		|-- fabric_lifecycle_events_v1 2.2.22+afab492177
+		|-- fabric_loot_api_v2 1.2.1+eb28f93e77
+		|-- fabric_message_api_v1 5.1.9+52cc178c77
+		|-- fabric_mining_level_api_v1 2.1.50+561530ec77
+		|-- fabric_model_loading_api_v1 1.0.3+6274ab9d77
+		|-- fabric_models_v0 0.4.2+7c3892a477
+		|-- fabric_networking_api_v1 1.3.11+503a202477
+		|-- fabric_object_builder_api_v1 11.1.3+4bd998fa77
+		|-- fabric_particles_v1 1.1.2+78e1ecb877
+		|-- fabric_recipe_api_v1 1.0.21+514a076577
+		|-- fabric_registry_sync_v0 2.3.3+1c0ea72177
+		|-- fabric_renderer_api_v1 3.2.1+cf68abbe77
+		|-- fabric_renderer_indigo 1.5.2+b5b2da4177
+		|-- fabric_rendering_data_attachment_v1 0.3.37+a6081afc77
+		|-- fabric_rendering_fluids_v1 3.0.28+4ac5e37a77
+		|-- fabric_rendering_v1 3.0.8+66e9a48f77
+		|-- fabric_resource_conditions_api_v1 2.3.8+9e342fc177
+		|-- fabric_resource_loader_v0 0.11.10+bcd08ed377
+		|-- fabric_screen_api_v1 2.0.8+45a670a577
+		|-- fabric_screen_handler_api_v1 1.3.30+561530ec77
+		|-- fabric_sound_api_v1 1.0.13+4f23bd8477
+		|-- fabric_transfer_api_v1 3.3.5+631c9cd677
+		\-- fabric_transitive_access_wideners_v1 4.3.1+1880499877
+	- unilib 1.1.1
+	- uteamcore 5.1.4.382
+	- voicechat 1.20.1-2.6.5
+		\-- voicechat_api 2.6.0
+	- voidfog 1.20.1-2.0.23
+	- watut 1.20.1-1.2.3
+	- wegotrunnners 1.0.0
+	- yungsapi 1.20-Forge-4.0.6
+	- zombie_extreme 0.2.6.5
+	- zombiekit 2.1.4
+[12Oct2025 01:01:09.491] [main/WARN] [mixin/]: Reference map 'item_scrapper.refmap.json' for item_scrapper.mixins.json could not be read. If this is a development environment you can ignore this message
+[12Oct2025 01:01:09.512] [main/WARN] [mixin/]: Reference map 'mixins.jeffs_cursed_walking_structures.refmap.json' for mixins.jeffs_cursed_walking_structures.json could not be read. If this is a development environment you can ignore this message
+[12Oct2025 01:01:09.551] [main/WARN] [mixin/]: Reference map 'pandalib-common-common-refmap.json' for pandalib-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[12Oct2025 01:01:09.667] [main/WARN] [mixin/]: Reference map 'access_denied.refmap.json' for access_denied.mixins.json could not be read. If this is a development environment you can ignore this message
+[12Oct2025 01:01:09.686] [main/WARN] [mixin/]: Reference map 'coroutil.refmap.json' for coroutil.mixins.json could not be read. If this is a development environment you can ignore this message
+[12Oct2025 01:01:09.905] [main/INFO] [dev.tonimatas.packetfixer.mixins.v1_19_4_forge.MixinPlugin/]: Packet Fixer forge 1.19.4-1.20.1 has been applied successfully.
+[12Oct2025 01:01:10.498] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/MouseHandler for invalid dist DEDICATED_SERVER
+[12Oct2025 01:01:10.499] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/MouseHandler (java.lang.RuntimeException: Attempted to load class net/minecraft/client/MouseHandler for invalid dist DEDICATED_SERVER)
+[12Oct2025 01:01:10.499] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.MouseHandler was not found fabric-screen-api-v1.mixins.json:MouseMixin
+[12Oct2025 01:01:10.501] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+[12Oct2025 01:01:10.501] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/Screen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER)
+[12Oct2025 01:01:10.501] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.Screen was not found fabric-screen-api-v1.mixins.json:ScreenAccessor
+[12Oct2025 01:01:10.681] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[12Oct2025 01:01:10.693] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[12Oct2025 01:01:11.045] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/MultiPlayerGameMode for invalid dist DEDICATED_SERVER
+[12Oct2025 01:01:11.045] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/MultiPlayerGameMode (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/MultiPlayerGameMode for invalid dist DEDICATED_SERVER)
+[12Oct2025 01:01:11.045] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.multiplayer.MultiPlayerGameMode was not found mixins.cofhcore.json:MultiPlayerGameModeMixin
+[12Oct2025 01:01:11.604] [main/WARN] [mixin/]: Error loading class: net/raphimc/immediatelyfast/feature/core/BatchableBufferSource (java.lang.ClassNotFoundException: net.raphimc.immediatelyfast.feature.core.BatchableBufferSource)
+[12Oct2025 01:01:11.608] [main/WARN] [mixin/]: Error loading class: dev/tr7zw/skinlayers/render/CustomizableModelPart (java.lang.ClassNotFoundException: dev.tr7zw.skinlayers.render.CustomizableModelPart)
+[12Oct2025 01:01:12.699] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[12Oct2025 01:01:13.482] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
